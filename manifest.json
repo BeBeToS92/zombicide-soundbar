@@ -1,0 +1,11 @@
+{
+  "name": "Zombicide Soundbar",
+  "short_name": "Soundbar",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#1a1412",
+  "theme_color": "#1a1412",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
