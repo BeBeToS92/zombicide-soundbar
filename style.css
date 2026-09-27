@@ -155,6 +155,38 @@ input[type="range"] { accent-color: var(--accent); }
   padding: 16px 0 24px;
 }
 
+.hint a,
+.credits a,
+.back {
+  color: var(--text);
+}
+
+.hint a { display: inline-block; margin-top: 8px; }
+
+.back { text-decoration: none; font-weight: 600; }
+
+.credits { max-width: 900px; padding: 16px 0 32px; line-height: 1.5; }
+
+.table-wrap { overflow-x: auto; }
+
+.credits table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.credits th,
+.credits td {
+  text-align: left;
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--button);
+  vertical-align: top;
+}
+
+.credits th { color: var(--muted); font-weight: 600; }
+
+.credits .note { color: var(--muted); font-size: 0.8rem; }
+
 /* Hide keyboard hints on touch devices */
 @media (hover: none) {
   .desktop-only { display: none; }

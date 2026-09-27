@@ -4,7 +4,7 @@ const CACHE = "zombicide-soundbar";
 
 importScripts("sounds.js");
 
-const APP_FILES = ["./", "index.html", "style.css", "app.js", "sounds.js", "manifest.json", "icon.svg"];
+const APP_FILES = ["./", "index.html", "credits.html", "style.css", "app.js", "sounds.js", "manifest.json", "icon.svg"];
 const SOUND_FILES = SOUND_SECTIONS.flatMap((section) =>
   section.sounds.flatMap((sound) => sound.files.map((file) => "sounds/" + file)));
 
