@@ -2,6 +2,8 @@
 
 A simple sound effects board for playing **Zombicide: Black Plague**. It's plain HTML/CSS/JS with no build step, so it can be hosted for free on GitHub Pages.
 
+Live demo here: https://bebetos92.github.io/zombicide-soundbar/
+
 - Tap a button to play a sound effect. The same sound can overlap with itself.
 - Ambient sounds loop until you tap them again, and each has its own volume slider.
 - There's a master volume control and a **Stop all** button (on desktop, **Esc** or **Space** also stops everything).
